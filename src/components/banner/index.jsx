@@ -1,4 +1,5 @@
 import backgroundhome from '../../assets/images/background-home.png'
+import backgroundabout from '../../assets/images/background-about.png'
 import "./style.scss"
 
 function Banner(props){
@@ -8,6 +9,14 @@ function Banner(props){
                 <div className="bannerContent">
                     <img src={backgroundhome} className='bannerImage' alt='Bord de mer Rocheux'></img>
                     <p className="bannerText">Chez vous, partout et ailleurs</p>
+                </div>
+            </section>
+        )
+    } else if (props.page === 'about') {
+        return (
+            <section className='bannerAbout'>
+                <div className="bannerAboutContent">
+                    <img src={backgroundabout} className='bannerAboutImage' alt='Chaine de montagnes'></img>
                 </div>
             </section>
         )
