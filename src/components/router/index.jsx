@@ -9,6 +9,9 @@ function Router() {
   return (
       <div className='page'>
           <Header />
+          <Routes>
+            <Route path='/' element={<Home />}></Route>
+          </Routes>
       </div>
 
   );
