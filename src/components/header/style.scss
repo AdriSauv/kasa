@@ -1,0 +1,48 @@
+.header {
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+a {
+    color: #FF6060;
+    text-decoration: none;
+}
+
+a.active {
+    text-decoration: underline;
+}
+
+a.visited {
+    color: #FF6060;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px;
+    }
+
+    .logo {
+        height: 43px;
+        width: auto;
+    }
+
+    .navbar {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+  
