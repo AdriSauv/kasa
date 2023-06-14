@@ -12,8 +12,9 @@ function Router() {
           <Header />
           <Routes>
             <Route path='/' element={<Home />}></Route>
+            <Route path="/housing/:id" element={<Housing />} />
             <Route path='/about' element={<About />}></Route>
-            <Route path='/error' element={<Error />}></Route>
+            <Route path='*' element={<Error />}></Route>
           </Routes>
           <Footer />
       </div>
