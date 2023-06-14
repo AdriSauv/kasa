@@ -6,8 +6,8 @@
 .error404 {
     font-size: 288px;
     font-weight: 700;
+    margin: auto auto 10px;
     text-align: center;
-    margin: auto auto 20px;
 }
 
 .errorMessage {
@@ -22,4 +22,25 @@
     justify-content: center;
     text-decoration: underline;
     margin-top: 100px;
+
+}
+
+@media (max-width :767px){
+    .error404{
+        margin-top: 110px;
+        font-size: 96px;
+    }
+
+    .errorMessage{
+        font-size: 18px;
+        width: 66%;
+        margin: 100px auto;
+        font-weight: 400;
+    }
+
+    .homeLink {
+        font-size: 14px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
 }
