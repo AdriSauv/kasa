@@ -1,5 +1,5 @@
-import backgroundhome from '../../assets/images/background-home.png'
-import backgroundabout from '../../assets/images/background-about.png'
+import backgroundhome from '../../assets/pictures/background-home.png'
+import backgroundabout from '../../assets/pictures/background-about.png'
 import "./style.scss"
 
 function Banner(props){
