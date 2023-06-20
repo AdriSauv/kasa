@@ -38,7 +38,9 @@
     align-items: center;
     position: relative;
     top: -30px;
-    max-height: 0;
+    height: auto;
+    opacity: 1;
+    transition: height 0.3s ease, opacity 0.3s ease;
     overflow: hidden;
     word-wrap: break-word;
 }
@@ -46,6 +48,11 @@
 .collapse_description_open {
     max-height: fit-content;
     
+}
+
+.collapse_description:not(.collapse_description_open) {
+    height: 0;
+    opacity: 0;
 }
 
 .arrow_up {
