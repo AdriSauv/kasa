@@ -20,11 +20,9 @@ function Collapse({ collapseTitle, collapseDescription }) {
                 {collapseTitle}
                 <img src={arrow} className={arrowClass} alt='deployer' />
             </div>
-            {isOpen && (
-                <div className={collapseDescriptionClass}>
-                    <div>{collapseDescription}</div>
-                </div>
-            )}
+            <div className={collapseDescriptionClass}>
+                <div>{collapseDescription}</div>
+            </div>
         </div>
     );
 }
