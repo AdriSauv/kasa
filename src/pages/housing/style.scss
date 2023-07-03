@@ -51,13 +51,16 @@
 .apartment-information {
     display: flex;
     flex-direction: row;
-    row-gap: 76px;
     justify-content: space-between;
     margin-bottom: 15px;
 }
 
 .collapse-left, .collapse-right {
     width: 50%;
+}
+
+.collapse-left {
+    margin-right: 7%;
 }
 
 .collapse-title {

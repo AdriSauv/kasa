@@ -5,7 +5,7 @@
     height: 40px;
     font-size: 18px;
     font-weight: 500;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 10px 20px 10px 15px;
     border-radius: 5px;
     display: flex;
@@ -14,7 +14,7 @@
     position: relative;
     z-index: 1;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    width: 75%;
+
 }
 
 .collapse_title_open:hover,
@@ -31,7 +31,6 @@
     margin: auto;
     padding: 10px 15px;
     border-radius: 5px;
-    width: 74%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,13 +78,11 @@
     .collapse_title_open {
         font-size: 11px;
         height: 20px;
-        width: 89%;
     }
 
     .collapse_description {
         font-size: 14px;
         margin: auto;
-        width: 90%;
     }
 
     .arrow_up{
